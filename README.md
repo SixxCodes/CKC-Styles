@@ -1,4 +1,4 @@
-# CKC-Styles
+# CKC-Styles (E-commerce Strorefront Simulator) pure Python
 An E-Commerce Storefront Simulator. 
 Made using pure python. 
 Json file for storing user and product information. 
