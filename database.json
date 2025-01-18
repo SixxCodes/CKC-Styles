@@ -1,0 +1,492 @@
+{
+    "users": [
+        {
+            "user_id": 4,
+            "username": "Buyer",
+            "password": "123",
+            "profileUser": "",
+            "firstName": "Buyer",
+            "lastName": "Ako",
+            "email": "",
+            "phoneNum": "",
+            "address": "",
+            "gender": "",
+            "birthday": "",
+            "is_seller": false,
+            "shop_name": "",
+            "bio_seller": "",
+            "cart": [],
+            "orders": []
+        },
+        {
+            "user_id": 3,
+            "username": "Charles",
+            "password": "3",
+            "profileUser": "C:/Users/USER/Documents/Python/CKC Styles/product_images/charles.jpg",
+            "firstName": "Charles",
+            "lastName": "Entrina",
+            "email": "charles.com",
+            "phoneNum": "0909876543212",
+            "address": "Brgy. baho",
+            "gender": "Other",
+            "birthday": "August 5, 1940",
+            "is_seller": true,
+            "shop_name": "Charliepung",
+            "bio_seller": "BUY HERE, PLS!",
+            "cart": [],
+            "orders": []
+        },
+        {
+            "user_id": 2,
+            "username": "Chied",
+            "password": "2",
+            "profileUser": "C:/Users/USER/Documents/Python/CKC Styles/product_images/chied.jpg",
+            "firstName": "Chiedyusof",
+            "lastName": "Mapuro",
+            "email": "mapuro@gmail.com",
+            "phoneNum": "09121231234",
+            "address": "Brgy. hello",
+            "gender": "Male",
+            "birthday": "June 3, 1932",
+            "is_seller": true,
+            "shop_name": "Chiedie",
+            "bio_seller": "Buy here for many discount!",
+            "cart": [],
+            "orders": []
+        },
+        {
+            "user_id": 1,
+            "username": "Kenny",
+            "password": "1",
+            "profileUser": "C:/Users/USER/Documents/Python/CKC Styles/product_images/kenny.jpg",
+            "firstName": "Kenny",
+            "lastName": "Madayag",
+            "email": "kenny@umindanao.edu.ph",
+            "phoneNum": "09123456789",
+            "address": "Prk Sabalayra",
+            "gender": "Female",
+            "birthday": "July 9, 2011",
+            "is_seller": true,
+            "shop_name": "KenShop",
+            "bio_seller": "Pls buy, i'm brokie.",
+            "cart": [],
+            "orders": []
+        }
+    ],
+    "products": [
+        {
+            "name": "Shoes Nike Unisex",
+            "colors": [
+                "White"
+            ],
+            "sizes": [
+                "37",
+                "39",
+                "40"
+            ],
+            "categories": [
+                "footwear",
+                "men",
+                "women"
+            ],
+            "price": 200.0,
+            "stock_info": {
+                "White": {
+                    "37": 10,
+                    "39": 6,
+                    "40": 100
+                }
+            },
+            "voucher": 10.0,
+            "shop_name": "KenShop",
+            "purchases": [],
+            "image": [
+                "C:/Users/USER/Documents/Python/CKC Styles/product_images/shoes1.jpg",
+                "C:/Users/USER/Documents/Python/CKC Styles/product_images/shoes2.jpg",
+                "C:/Users/USER/Documents/Python/CKC Styles/product_images/shoes3.jpg"
+            ],
+            "reviews": [],
+            "rating": 0,
+            "sold": 0
+        },
+        {
+            "name": "Black T-Shirt (random design)",
+            "colors": [
+                "Black"
+            ],
+            "sizes": [
+                "XS",
+                "M",
+                "L"
+            ],
+            "categories": [
+                "top",
+                "women",
+                "men",
+                "kids"
+            ],
+            "price": 150.0,
+            "stock_info": {
+                "Black": {
+                    "XS": 10,
+                    "M": 40,
+                    "L": 90
+                }
+            },
+            "voucher": 0.0,
+            "shop_name": "KenShop",
+            "purchases": [],
+            "image": [
+                "C:/Users/USER/Documents/Python/CKC Styles/product_images/tshirt1.jpg",
+                "C:/Users/USER/Documents/Python/CKC Styles/product_images/tshirt2.jpg",
+                "C:/Users/USER/Documents/Python/CKC Styles/product_images/tshirt3.jpg"
+            ],
+            "reviews": [],
+            "rating": 0,
+            "sold": 0
+        },
+        {
+            "name": "White T-Shirt",
+            "colors": [
+                "White"
+            ],
+            "sizes": [
+                "M",
+                "L"
+            ],
+            "categories": [
+                "women",
+                "men",
+                "top",
+                "kids"
+            ],
+            "price": 250.0,
+            "stock_info": {
+                "White": {
+                    "M": 200,
+                    "L": 290
+                }
+            },
+            "voucher": 15.0,
+            "shop_name": "KenShop",
+            "purchases": [],
+            "image": [
+                "C:/Users/USER/Documents/Python/CKC Styles/product_images/wtshirt1.jpg",
+                "C:/Users/USER/Documents/Python/CKC Styles/product_images/wtshirt2.jpg",
+                "C:/Users/USER/Documents/Python/CKC Styles/product_images/wtshirt3.jpg"
+            ],
+            "reviews": [],
+            "rating": 0,
+            "sold": 0
+        },
+        {
+            "name": "Small Wallet for Women",
+            "colors": [
+                "black",
+                "pink",
+                "sky blue"
+            ],
+            "sizes": [
+                "S"
+            ],
+            "categories": [
+                "bags",
+                "women"
+            ],
+            "price": 2500.0,
+            "stock_info": {
+                "black": {
+                    "S": 2000
+                },
+                "pink": {
+                    "S": 100
+                },
+                "sky blue": {
+                    "S": 20
+                }
+            },
+            "voucher": 15.0,
+            "shop_name": "KenShop",
+            "purchases": [],
+            "image": [
+                "C:/Users/USER/Documents/Python/CKC Styles/product_images/walletgirl1.jpg",
+                "C:/Users/USER/Documents/Python/CKC Styles/product_images/walletgirl2.jpg",
+                "C:/Users/USER/Documents/Python/CKC Styles/product_images/walletgirl3.jpg"
+            ],
+            "reviews": [],
+            "rating": 0,
+            "sold": 0
+        },
+        {
+            "name": "Wallet for men",
+            "colors": [
+                "Black",
+                "Brown"
+            ],
+            "sizes": [
+                "S"
+            ],
+            "categories": [
+                "men",
+                "bags"
+            ],
+            "price": 300.0,
+            "stock_info": {
+                "Black": {
+                    "S": 2222
+                },
+                "Brown": {
+                    "S": 99
+                }
+            },
+            "voucher": 50.0,
+            "shop_name": "Chiedie",
+            "purchases": [],
+            "image": [
+                "C:/Users/USER/Documents/Python/CKC Styles/product_images/menwallet1.jpg",
+                "C:/Users/USER/Documents/Python/CKC Styles/product_images/menwallet2.jpg",
+                "C:/Users/USER/Documents/Python/CKC Styles/product_images/menwallet3.jpg"
+            ],
+            "reviews": [],
+            "rating": 0,
+            "sold": 0
+        },
+        {
+            "name": "Black Oversize T-Shirt",
+            "colors": [
+                "Black"
+            ],
+            "sizes": [
+                "S",
+                "XXL"
+            ],
+            "categories": [
+                "men",
+                "women",
+                "top"
+            ],
+            "price": 900.0,
+            "stock_info": {
+                "Black": {
+                    "S": 20,
+                    "XXL": 200
+                }
+            },
+            "voucher": 20.0,
+            "shop_name": "Chiedie",
+            "purchases": [],
+            "image": [
+                "C:/Users/USER/Documents/Python/CKC Styles/product_images/blacktshirtchied1.jpg",
+                "C:/Users/USER/Documents/Python/CKC Styles/product_images/blacktshirtchied2.jpg",
+                "C:/Users/USER/Documents/Python/CKC Styles/product_images/blacktshirtchied3.jpg"
+            ],
+            "reviews": [],
+            "rating": 0,
+            "sold": 0
+        },
+        {
+            "name": "White Oversize T-Shirt",
+            "colors": [
+                "White"
+            ],
+            "sizes": [
+                "XXL"
+            ],
+            "categories": [
+                "top",
+                "women",
+                "men"
+            ],
+            "price": 2000.0,
+            "stock_info": {
+                "White": {
+                    "XXL": 900
+                }
+            },
+            "voucher": 0.0,
+            "shop_name": "Chiedie",
+            "purchases": [],
+            "image": [
+                "C:/Users/USER/Documents/Python/CKC Styles/product_images/whitetshirtchied1.jpg",
+                "C:/Users/USER/Documents/Python/CKC Styles/product_images/whitetshirtchied2.jpg",
+                "C:/Users/USER/Documents/Python/CKC Styles/product_images/whitetshirtchied3.jpg"
+            ],
+            "reviews": [],
+            "rating": 0,
+            "sold": 0
+        },
+        {
+            "name": "Off Shoulder Longsleeves",
+            "colors": [
+                "Brown",
+                "White"
+            ],
+            "sizes": [
+                "XS",
+                "S"
+            ],
+            "categories": [
+                "women",
+                "top"
+            ],
+            "price": 500.0,
+            "stock_info": {
+                "Brown": {
+                    "XS": 100,
+                    "S": 90
+                },
+                "White": {
+                    "XS": 80,
+                    "S": 33
+                }
+            },
+            "voucher": 0.0,
+            "shop_name": "Charliepung",
+            "purchases": [],
+            "image": [
+                "C:/Users/USER/Documents/Python/CKC Styles/product_images/longwomen2.jpg",
+                "C:/Users/USER/Documents/Python/CKC Styles/product_images/longwomen3.jpg",
+                "C:/Users/USER/Documents/Python/CKC Styles/product_images/longwomen1.jpg"
+            ],
+            "reviews": [],
+            "rating": 0,
+            "sold": 0
+        },
+        {
+            "name": "Pants for Men",
+            "colors": [
+                "White",
+                "Gray",
+                "Black"
+            ],
+            "sizes": [
+                "M"
+            ],
+            "categories": [
+                "men",
+                "bottom"
+            ],
+            "price": 470.0,
+            "stock_info": {
+                "White": {
+                    "M": 90
+                },
+                "Gray": {
+                    "M": 50
+                },
+                "Black": {
+                    "M": 20
+                }
+            },
+            "voucher": 3.0,
+            "shop_name": "Charliepung",
+            "purchases": [],
+            "image": [
+                "C:/Users/USER/Documents/Python/CKC Styles/product_images/pants1.jpg",
+                "C:/Users/USER/Documents/Python/CKC Styles/product_images/pants2.jpg",
+                "C:/Users/USER/Documents/Python/CKC Styles/product_images/pants3.jpg"
+            ],
+            "reviews": [],
+            "rating": 0,
+            "sold": 0
+        },
+        {
+            "name": "White Top Korean",
+            "colors": [
+                "White"
+            ],
+            "sizes": [
+                "M",
+                "L"
+            ],
+            "categories": [
+                "men",
+                "top"
+            ],
+            "price": 450.0,
+            "stock_info": {
+                "White": {
+                    "M": 20,
+                    "L": 56
+                }
+            },
+            "voucher": 11.0,
+            "shop_name": "Charliepung",
+            "purchases": [],
+            "image": [
+                "C:/Users/USER/Documents/Python/CKC Styles/product_images/whitetopmen1.jpg",
+                "C:/Users/USER/Documents/Python/CKC Styles/product_images/whitetopmen2.jpg",
+                "C:/Users/USER/Documents/Python/CKC Styles/product_images/whitetopmen3.jpg"
+            ],
+            "reviews": [],
+            "rating": 0,
+            "sold": 0
+        },
+        {
+            "name": "Green Top Korean",
+            "colors": [
+                "Green"
+            ],
+            "sizes": [
+                "XL"
+            ],
+            "categories": [
+                "men",
+                "top"
+            ],
+            "price": 370.0,
+            "stock_info": {
+                "Green": {
+                    "XL": 400
+                }
+            },
+            "voucher": 35.0,
+            "shop_name": "Charliepung",
+            "purchases": [],
+            "image": [
+                "C:/Users/USER/Documents/Python/CKC Styles/product_images/greentop1.jpg",
+                "C:/Users/USER/Documents/Python/CKC Styles/product_images/greentop2.jpg",
+                "C:/Users/USER/Documents/Python/CKC Styles/product_images/greentop3.jpg"
+            ],
+            "reviews": [],
+            "rating": 0,
+            "sold": 0
+        },
+        {
+            "name": "Black Top for Beach",
+            "colors": [
+                "Black"
+            ],
+            "sizes": [
+                "XS",
+                "M",
+                "XL"
+            ],
+            "categories": [
+                "top",
+                "men",
+                "beachwear"
+            ],
+            "price": 900.0,
+            "stock_info": {
+                "Black": {
+                    "XS": 30,
+                    "M": 90,
+                    "XL": 200
+                }
+            },
+            "voucher": 0.0,
+            "shop_name": "Charliepung",
+            "purchases": [],
+            "image": [
+                "C:/Users/USER/Documents/Python/CKC Styles/product_images/blacktop1.jpg",
+                "C:/Users/USER/Documents/Python/CKC Styles/product_images/blacktop2.jpg",
+                "C:/Users/USER/Documents/Python/CKC Styles/product_images/blacktop3.jpg"
+            ],
+            "reviews": [],
+            "rating": 0,
+            "sold": 0
+        }
+    ],
+    "orders": []
+}
