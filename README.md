@@ -4,6 +4,7 @@
 * Made using pure python. 
 * Json file for storing user and product information. 
 * Only for school project purposes, not reccomended for practical use.
+* IDE: Virtual Studio Code
 
 ## This project still have bugs/erros:
 
