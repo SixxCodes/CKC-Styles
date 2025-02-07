@@ -6,7 +6,7 @@
 * Only for school project purposes, not reccomended for practical use.
 * IDE: Virtual Studio Code
 
-## This project still have bugs/erros:
+## 🛍️ This project still have bugs/erros:
 
 1. Image Carousel on homePage_Panel keeps on writing errors on the terminal while program is running. It doesnt affect thhe program at all though.
 2. As a seller, when you delete one product, all of the existing products, including products of other seller, gets deleted too. DAMN!
